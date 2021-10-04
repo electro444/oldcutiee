@@ -84,45 +84,52 @@ def get_readable_time(seconds: int) -> str:
 
 CUTIEPII_IMG = "https://telegra.ph/file/57d1e105345723fea0edd.png"
     
+CUTIEPII_IMG = "https://telegra.ph/file/3d4c4a95878acaaa344d0.jpg"
+    
 PM_START_TEXT = """
-────「 [Cutiepii Robot](https://telegra.ph/file/5058a17bd9447eb07a47f.png) 」────
-*Hola! {},*
-*I am an Anime themed advance group management bot with a lot of Sexy Features.*
+────「 [❰🅢🅒🅞🅡🅑🅤🅝🅝🅨❱](https://telegra.ph/file/c79e08518da22d4846258.jpg) 」────
+*𝙰𝙻𝙾𝙻𝙰 ! {},*
+*𝙸 𝚊𝚖 𝚂𝙲𝙾𝚁𝙱𝚄𝙽𝚈 𝙰 𝚌𝚞𝚝𝚎 𝚐𝚛𝚘𝚞𝚙 𝚖𝚊𝚗𝚊𝚐𝚎𝚛 𝚗𝚒𝚌𝚎 𝚝𝚘 𝚖𝚎𝚎𝚝 𝚢𝚘𝚞*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-• *Uptime:* `{}`
-• `{}` *users, across* `{}` *chats.*
+• *Uptime:* {}
+• {} *users, across* {} *chats.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ➛ Try The Help Buttons Below To Know My Abilities ××
 """
 
 GROUP_START_TEXT = """
-I'm awake already!
-Haven't slept since: {}
+𝙐𝙢𝙢? 𝙎𝘾𝙊𝙍𝘽𝙐𝙉𝙉𝙔[💤](https://telegra.ph/file/12e5da109eb9781b91bdc.jpg) 𝙄𝙎 𝙃𝙀𝙍𝙀💤: {}
 """
 
 buttons = [
     [
-                        InlineKeyboardButton(
-                            text="Add Cutiepii To Your Group",
-                            url="t.me/Cutiepii_Robot?startgroup=true")
-                    ],
-                   [
-                       InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
-                       InlineKeyboardButton(text="[► Music ◄]", url="http://t.me/Group_Music_Probot?startgroup=true"),
-                       InlineKeyboardButton(text="[► Inline ◄]", switch_inline_query_current_chat=""),
-                     ],
-                    [                  
-                       InlineKeyboardButton(
-                             text="❔ Chit Chat",
-                             url="https://t.me/HindiKDrama"),
-                       InlineKeyboardButton(
-                             text="📢 Updates",
-                             url="https://t.me/Black_Knights_Union")
-                     ], 
-    ]
+        InlineKeyboardButton(
+            text="〚 ✙ 𝕊ℂ𝕆ℝ𝔹𝕌ℕℕ𝕐 𝕀ℕ 𝕐𝕆𝕌ℝ 𝔾ℝ𝕆𝕌ℙ ✙ 〛", url="t.me/Scorbunnyrobot?startgroup=true"),
+    ],
+    [  
+        InlineKeyboardButton(text="《🔥𝐒𝐂𝐎𝐑𝐁𝐔𝐍𝐍𝐘 𝐖𝐄𝐁🔥》", url="https://aryanjawale248.wixsite.com/mysite"),
+        InlineKeyboardButton(text="〔✯🅢🅒🅞🅡🅑🅤🅝🅝🅨  🅓🅔🅥🅢✯〕", url="https://aryanjawale248.wixsite.com/mysite-1"),
+    ], 
+    [
+        InlineKeyboardButton(text="『 ✎ⓐⓑⓞⓤⓣ  ⓢⓒⓞⓡⓑⓤⓝⓝⓨ ✎』", url="https://telegra.ph/-09-23-1649"),
+        InlineKeyboardButton(text="〘〶📚 🄲🄾🄼🄼🄰🄽🄳🅂 〶〙", callback_data="help_back"),
+       
+    ],
+    [
+        InlineKeyboardButton(
+            text="【🔗 🅂🅄🄿🄿🄾🅁🅃 🄲🄷🄰🄽🄽🄴🄻🔗 】", url="t.me/trainer_zone"),
+        InlineKeyboardButton(
+            text="☲📝ⓈⒸⓄⓇⒷⓊⓃⓃⓎⓇⓄⒷⓄⓉ ⓁⓄⒼⓈ☲", url="https://t.me/Scorbunny_logs"),
+    ],
+    [  
+        InlineKeyboardButton(text="♕🄾🅆🄽🄴🅁♕", url="https://t.me/Aryanjawale"
+    ),
+    ], 
 
                     
 HELP_STRINGS = """
+𝐂𝐇𝐄𝐂𝐊 𝐀𝐋𝐋 𝐒𝐂𝐎𝐑𝐁𝐔𝐍𝐍𝐘'𝐒 𝐅𝐄𝐀𝐓𝐔𝐑𝐄𝐒 𝐃𝐎𝐖𝐍[⬇️](https://telegra.ph/file/5d0dbb0e626f7d1a297e9.jpg)
+
 *Main* commands available:
  ➛ /help: PM's you this message.
  ➛ /help <module name>: PM's you info about that module.
@@ -131,7 +138,6 @@ HELP_STRINGS = """
    ❂ in PM: will send you your settings for all supported modules.
    ❂ in a group: will redirect you to pm, with all that chat's settings.
 """
-
 DONATE_STRING = """❂ I'm Free for Everyone ❂"""
 
 
