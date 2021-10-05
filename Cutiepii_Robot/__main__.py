@@ -128,9 +128,7 @@ buttons = [
        ]
 
                     
-HELP_STRINGS = """
-𝐂𝐇𝐄𝐂𝐊 𝐀𝐋𝐋 𝐒𝐂𝐎𝐑𝐁𝐔𝐍𝐍𝐘'𝐒 𝐅𝐄𝐀𝐓𝐔𝐑𝐄𝐒 𝐃𝐎𝐖𝐍[⬇️](https://telegra.ph/file/5d0dbb0e626f7d1a297e9.jpg)
-
+HELP_STRINGS = """𝐂𝐇𝐄𝐂𝐊 𝐀𝐋𝐋 𝐒𝐂𝐎𝐑𝐁𝐔𝐍𝐍𝐘'𝐒 𝐅𝐄𝐀𝐓𝐔𝐑𝐄𝐒 𝐃𝐎𝐖𝐍[⬇️](https://telegra.ph/file/5d0dbb0e626f7d1a297e9.jpg)
 *Main* commands available:
  ➛ /help: PM's you this message.
  ➛ /help <module name>: PM's you info about that module.
