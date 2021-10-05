@@ -124,7 +124,8 @@ buttons = [
     [  
         InlineKeyboardButton(text="♕🄾🅆🄽🄴🅁♕", url="https://t.me/Aryanjawale"
     ),
-    ], 
+     ]
+       ]
 
                     
 HELP_STRINGS = """
